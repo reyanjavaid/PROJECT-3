@@ -187,10 +187,10 @@ async function getBackgroundImage(){
   console.log(hour);
 
   if(hour>=6 && hour<18){
-      bg="bg2.jpg";
+      bg="bg.jpg";
   }
   else{
-      bg="bg1.jpg";
+      bg="bg2.jpg";
   }
    backgroundImg=loadImage(bg);
 }
